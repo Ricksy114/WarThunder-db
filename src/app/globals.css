@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-barlow), ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-bebas {
+    font-family: var(--font-bebas), sans-serif;
+  }
+  .font-mono-custom {
+    font-family: var(--font-mono-custom), monospace;
+  }
+  .font-barlow {
+    font-family: var(--font-barlow), sans-serif;
+  }
+}
